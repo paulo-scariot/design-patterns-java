@@ -17,7 +17,8 @@ import creational.simplefactory.VehicleSimpleFactory;
 import creational.singleton.Singleton;
 
 public class CreationalPatterns {
-    public static void run() {
+    public static void main(String[] args) {
+        System.out.println("\n####################  Creational Patterns  ####################");
 
         // O Singleton garante que apenas um objeto desse tipo exista e forneça um único ponto de acesso a ele para qualquer outro código.
         System.out.println("Singleton");

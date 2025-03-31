@@ -18,9 +18,11 @@ import structural.proxy.Image;
 import structural.proxy.ProxyImage;
 
 public class StructuralPatterns {
-    public static void run() {
+    public static void main(String[] args) {
+        System.out.println("\n####################  Structural Patterns  ####################");
+
         // O Adapter permite a colaboração de objetos incompatíveis.
-        System.out.println("\nAdapter");
+        System.out.println("Adapter");
         ModernPrinter modernPrinter = new ModernPrinter();
         modernPrinter.print();
         PrinterAdapter adapter = new PrinterAdapter(new LegacyPrinter());
